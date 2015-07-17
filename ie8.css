@@ -1,0 +1,47 @@
+label.checkbox {
+	margin: 9px 9px 0 0;
+	padding: 4px 0 0 33px;
+    display: inline-block;
+    height: 26px;
+    min-width: 32px;
+	background: url(./images/check-btn.png) no-repeat 1px -38px;
+    top: 5px;
+	zoom:1;
+	*display: inline;
+}
+label.checked.checkbox  {
+    background-position: 1px 0;
+}
+input[type="checkbox"]#accept{
+	float: right;
+	display: block;
+	margin: -3px 0 0;
+}
+input[type="checkbox"]#accept + label {
+	display: none;
+}
+label.radio {
+	margin: 0 51px 0 0;
+	padding: 0 0 0 7px;
+    display: inline-block;
+    height: 20px;
+    min-width: 25px;
+	top: 5px;
+    position: relative;
+    width: auto;
+	background: url(./images/radio-btn.png) no-repeat 1px -28px;
+	zoom:1;
+	*display: inline;
+}
+label.checked.radio {
+    background-position: 1px 0;
+}
+label.check {
+	float: none;
+    margin: 0 9px 0 0;
+    width: auto;
+	padding: 0;
+}
+label.prettyCheckbox span {
+	display: none;
+}

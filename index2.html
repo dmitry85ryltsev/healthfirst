@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Health First Form-02</title>
+      <link rel="stylesheet" href="style.css">
+      <!--[if lt IE 9]> 
+      <link rel="stylesheet" href="ie8.css">
+      <![endif]-->
+      <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+      <script src="js/script.js"></script>
+      <!--[if lt IE 9]><script src="js/prettyCheckboxes.js" ></script><![endif]-->
+      <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <div id="wrapper">
+         <header id="header">
+            <ul class="logos">
+               <li><a class="logo-main" href="#"><img src="./images/healthfirst.png" alt="healthfirst" /></a></li>
+               <li><a class="logo-partners" href="#"><img src="./images/partners.png" alt="Senior Health partners" /></a></li>
+            </ul>
+         </header>
+         <div id="middle">
+            <h1 class="title">Healthfirst CompleteCare (HMO SNP) &amp; Managed Long Term Care Referral Form</h1>
+            <div class="content">
+               <div class="pagination">
+                  <ul>
+                     <li><a href="index1.html">1</a></li>
+                     <li><a class="active" href="index2.html">2</a></li>
+                     <li><a href="index3.html">3</a></li>
+                     <li><a href="healthfirst-referral-form_04.html">4</a></li>
+                  </ul>
+               </div>
+               <h2 class="form">Prospect Information</h2>
+               <form id="form-02" class="health-first-referral" action="#">
+                  <div class="form-item">
+                     <label for="first-name">First Name</label>
+                     <input id="first-name" class="form-text" type="text" value="" />
+                  </div>
+                  <div class="form-item">
+                     <label for="last-name">Last Name</label>
+                     <input id="last-name" class="form-text" type="text" value="" />
+                  </div>
+                  <div class="form-item">
+                     <label for="email">E-mail</label>
+                     <input id="email" class="form-text" type="email" value="" />
+                  </div>
+                  <div class="form-item">
+                     <label for="address">Address</label>
+                     <input id="address" class="form-text" type="text" value="" />
+                  </div>
+                  <div class="form-item">
+                     <label for="apt">Apt. #</label>
+                     <input id="apt" class="form-text" type="text" value="" />
+                  </div>
+                  <div class="form-item">
+                     <label for="city">City</label>
+                     <input id="city" class="form-text" type="text" value="" />
+                  </div>
+                  <div class="form-item">
+                     <label for="referring-agency">State</label>
+                     <select id="referring-agency">
+                        <option value="NY">NY</option>
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="GA">Georgia</option>
+                        <option value="NV ">Nevada </option>
+                     </select>
+                  </div>
+                  <div class="form-item">
+                     <label for="zip">Zip</label>
+                     <input id="zip" class="form-text" type="text" value="" />
+                  </div>
+                  <div class="form-item">
+                     <label for="phone">Telephone</label>
+                     <input id="phone" class="form-text" type="tel" value="" />
+                  </div>
+                  <div class="form-item two-line">
+                     <label for="date">Date of Birth <span class="b-date">(* Must be 21 for MLTC only )</span></label>
+                     <input id="date" class="form-text" type="date" value="" />
+                  </div>
+                  <div class="form-item two-line">
+                     <label for="primary-care">Primary Care Provider</label>
+                     <input id="primary-care" class="form-text" type="text" value="" />
+                  </div>
+                  <div class="form-item">
+                     <label for="primary-language">Primary Language</label>
+                     <input id="primary-language" class="form-text" type="text" value="" />
+                  </div>
+                  <div class="form-item">
+                     <label>Gender</label>
+                     <span>
+                     <input id="female" type="radio" name="radio" checked hidden />
+                     <label class="check" for="female">Female</label>
+                     </span>
+                     <span>
+                     <input id="male" type="radio" name="radio" hidden />
+                     <label class="check" for="male">Male</label>
+                     </span>
+                  </div>
+                  <div class="form-action">
+                     <input type="submit" value="Previous" class="btn-submit" />				
+                     <input type="reset" value="Clear" class="btn-submit" />
+                     <input type="submit" value="Next" class="btn-submit" />
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

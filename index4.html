@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Health First Form-04</title>
+      <link rel="stylesheet" href="style.css">
+      <!--[if lt IE 9]> 
+      <link rel="stylesheet" href="ie8.css">
+      <![endif]-->
+      <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+      <script src="js/script.js"></script>
+      <!--[if lt IE 9]><script src="js/prettyCheckboxes.js" ></script><![endif]-->
+      <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <div id="wrapper">
+         <header id="header">
+            <ul class="logos">
+               <li><a class="logo-main" href="#"><img src="./images/healthfirst.png" alt="healthfirst" /></a></li>
+               <li><a class="logo-partners" href="#"><img src="./images/partners.png" alt="Senior Health partners" /></a></li>
+            </ul>
+         </header>
+         <div id="middle">
+            <h1 class="title">Healthfirst CompleteCare (HMO SNP) &amp; Managed Long Term Care Referral Form</h1>
+            <div class="content">
+               <div class="pagination">
+                  <ul>
+                     <li><a href="index1.html">1</a></li>
+                     <li><a href="index2.html">2</a></li>
+                     <li><a href="index3.html">3</a></li>
+                     <li><a class="active" href="index4.html">4</a></li>
+                  </ul>
+               </div>
+               <form id="form-04" class="health-first-referral" action="#">
+                  <div class="form-item two-line">
+                     <label>Does Prospect Have Medicaid?</label>
+                     <span>
+                     <input id="prosp1" type="radio" name="group1" checked hidden />
+                     <label class="check" for="prosp1">Yes</label>
+                     </span>
+                     <span>
+                     <input id="prosp2" type="radio" name="group1" hidden />
+                     <label class="check" for="prosp2">No</label>
+                     </span>
+                  </div>
+                  <div class="form-item">
+                     <label for="medicaid-number">Medicaid Number</label>
+                     <input id="medicaid-number" class="form-text" type="number" value="" />
+                  </div>
+                  <div class="form-item">
+                     <label>If no, would applicant like to apply?</label>
+                     <span>
+                     <input id="applicant1" type="radio" name="group2" checked hidden />
+                     <label class="check" for="applicant1">Yes</label>
+                     </span>
+                     <span>
+                     <input id="applicant2" type="radio" name="group2" hidden />
+                     <label class="check" for="applicant2">No</label>
+                     </span>
+                  </div>
+                  <div class="form-item">
+                     <label for="medicare-number">Medicare Number</label>
+                     <input id="medicare-number" class="form-text" type="number" value="" />
+                  </div>
+                  <div class="form-item">
+                     <label>Does your patient have <a class="tooltip" href="#ESRD1" title="End Stage Renal Disease" >ESRD?</a></label>
+                     <span>
+                     <input id="ESRD1" type="radio" name="group3" checked hidden />
+                     <label class="check" for="ESRD1">Yes</label>
+                     </span>
+                     <span>
+                     <input id="ESRD2" type="radio" name="group3" hidden />
+                     <label class="check" for="ESRD2">No</label>
+                     </span>
+                  </div>
+                  <div class="form-item">
+                     <label>Current services in the home? </label>
+                     <span>
+                     <input id="home1" type="radio" name="group4" checked hidden />
+                     <label class="check" for="home1">Yes</label>
+                     </span>
+                     <span>
+                     <input id="home2" type="radio" name="group4" hidden />
+                     <label class="check" for="home2">No</label>
+                     </span>
+                  </div>
+                  <div class="form-item">
+                     <label for="if-yes">If yes, agency name</label>
+                     <input id="if-yes" class="form-text" type="text" value="" />
+                  </div>
+                  <div class="form-item form-item-04">
+                     <label class="checkboxe-label">Diagnosis</label>
+                     <input id="cfirst" type="checkbox" name="first" hidden />
+                     <label class="check" for="cfirst">Diabetes</label>
+                     <input id="csecond" type="checkbox" name="second" hidden />
+                     <label class="check" for="csecond">Dementia</label>
+                     <input id="cthird" type="checkbox" name="third" hidden />
+                     <label class="check" for="cthird">Hypertension</label>
+                     <input id="cfourth" type="checkbox" name="fourth" hidden />
+                     <label class="check" for="cfourth">Other</label>
+                  </div>
+                  <div class="form-item">
+                     <label for="other-comments">Other comments</label>
+                     <textarea id="other-comments"></textarea>
+                  </div>
+                  <h2 class="line">Referral Source Attestation</h2>
+                  <div class="form-item full">
+                     <p class="left-item"><input id="accept" type="checkbox" name="group5" checked hidden /><label class="check" for="accept"></label></p>
+                     <p class="right-item">I attest that the client was informed of the referral and agrees to receive more information about the MAP and/or MLTC program; and that CHHA has been notified that this Prospect is being referred to Healthfirst Complete Care (HMO SNP) or Senior Health Partners (SHP) for potential enrollment.</p>
+                  </div>
+                  <div class="form-item">
+                     <label for="name">Name</label>
+                     <input id="name" class="form-text" type="text" value="" />
+                  </div>
+                  <div class="form-item">
+                     <label for="email">E-mail</label>
+                     <input id="email" class="form-text" type="email" value="" />
+                  </div>
+                  <p class="right-item">All information will be kept confidential. Thank you for your Referral!</p>
+                  <div class="form-action">
+                     <input type="submit" value="Previous" class="btn-submit" />				
+                     <input type="reset" value="Clear" class="btn-submit" />
+                     <input type="submit" value="Next" class="btn-submit" />									
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

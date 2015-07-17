@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Health First Form-01</title>
+      <link rel="stylesheet" href="style.css">
+      <!--[if lt IE 9]> 
+      <link rel="stylesheet" href="ie8.css">
+      <![endif]-->
+      <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+      <script src="js/script.js"></script>
+      <!--[if lt IE 9]><script src="js/prettyCheckboxes.js" ></script><![endif]-->
+      <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <div id="wrapper">
+         <header id="header">
+            <ul class="logos">
+               <li><a class="logo-main" href="#"><img src="./images/healthfirst.png" alt="healthfirst" /></a></li>
+               <li><a class="logo-partners" href="#"><img src="./images/partners.png" alt="Senior Health partners" /></a></li>
+            </ul>
+         </header>
+         <div id="middle">
+            <h1 class="title">Healthfirst CompleteCare (HMO SNP) &amp; Managed Long Term Care Referral Form</h1>
+            <div class="content">
+               <div class="info-text">
+                  <h2>Referral Form</h2>
+                  <p>Healthfirst offers two types of Managed Long Term Care plans (<a href="#">learn more</a>) and we can help you determine which plan is right for your patient. To contact us or to receive more information, call 1-866-585-9280, Monday to Friday, 9am - 5pm.</p>
+               </div>
+               <div class="pagination">
+                  <ul>
+                     <li><a class="active" href="index1.html">1</a></li>
+                     <li><a href="index2.html">2</a></li>
+                     <li><a href="index3.html">3</a></li>
+                     <li><a href="index4.html">4</a></li>
+                  </ul>
+               </div>
+               <h2>Referal Source Information</h2>
+               <form id="form-01" class="health-first-referral" action="#">
+                  <div class="form-item">
+                     <label for="date">Date</label>
+                     <input id="date" class="form-text" type="date" value="" />
+                  </div>
+                  <div class="form-item">
+                     <label for="name">Full Name</label>
+                     <input id="name" class="form-text" type="text" value="" />
+                  </div>
+                  <div class="form-item">
+                     <label for="job">Job Title</label>
+                     <input id="job" class="form-text" type="text" value="" />
+                  </div>
+                  <div class="form-item two-line">
+                     <label for="referring-agency">Reffering Agency/ Organization</label>
+                     <select id="referring-agency">
+                        <option value="health-first">Health First</option>
+                        <option value="health-partners">Senior Health partners</option>
+                     </select>
+                  </div>
+                  <div class="form-item">
+                     <label for="phone">Telephone</label>
+                     <input id="phone" class="form-text" type="tel" value="" />
+                  </div>
+                  <div class="form-item">
+                     <label for="email">E-mail</label>
+                     <input id="email" class="form-text" type="email" value="" />
+                  </div>
+                  <div class="form-item">
+                     <label for="address">Address</label>
+                     <input id="address" class="form-text" type="text" value="" />
+                  </div>
+                  <div class="form-item">
+                     <label for="city">City</label>
+                     <input id="city" class="form-text" type="text" value="" />
+                  </div>
+                  <div class="form-item">
+                     <label for="State">State</label>
+                     <select id="State">
+                        <option value="NY">NY</option>
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="GA">Georgia</option>
+                        <option value="NV ">Nevada </option>
+                     </select>
+                  </div>
+                  <div class="form-item">
+                     <label for="zip">Zip</label>
+                     <input id="zip" class="form-text" type="text" value="" />
+                  </div>
+                  <div class="form-item checkboxes">
+                     <span><label class="checkboxe-label">Referral for</label>
+                     <input id="cfirst" type="checkbox" name="first" hidden /><label class="check" for="cfirst"><a class="tooltip" href="#cfirst" title="Medicated Advantage Plus">MAP</a></label></span>
+                     <span><input id="csecond" type="checkbox" name="second" hidden /><label class="check" for="csecond"><a class="tooltip" href="#csecond" title="MLTC">MLTC</a></label></span>
+                  </div>
+                  <div class="form-action">
+                     <input type="submit" value="Next" class="btn-submit" />				
+                     <input type="reset" value="Clear" class="btn-submit" />				
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
